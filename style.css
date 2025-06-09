@@ -1,0 +1,115 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left top, rgb(227, 227, 166), rgb(171, 223, 171));
+    color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h1:hover{
+    transform: scale(1.2);
+    color: rgb(255, 213, 0);
+}
+header{
+    background-color: darkslategray;
+    padding: 20px;
+}
+nav ul{
+    display:flex ;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+
+}
+h2::selection{
+    background-color: cornflowerblue;
+    color: gold;
+}
+p::selection{
+    background-color: cornflowerblue;
+    color: gold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a:hover{
+    border: 1px solid white;
+    background-color: darkblue;
+    border-radius: 5px;
+  
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:0 auto;
+    background: radial-gradient(farthest-side ellipse at top left, white, blue);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
+}
+img{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 1px white;
+}
+#img1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 50px;
+    gap: 20px;
+    padding-bottom: 30px;
+    
+}
+.m1 h2::before{
+content: "♨";
+color: brown;
+}
+h2{
+    text-align: center;
+}
+.m1 h2::after{
+    content: "🍴";
+}
+.u1 li::marker{
+    content: "😅";
+}
+section{
+    border: 1px solid gray;
+    border-radius: 10px;
+margin: 10px;
+padding: 0 30px;
+box-shadow: 2px 2px 2px 1px rgb(17, 17, 17);
+}
+footer{
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+footer p::before{
+   content: "👳";
+}
+footer p::after{
+    content: "👳";
+ }
+ .img11 h3{
+text-align: center;
+
+ }
+
+.img11 a:hover{
+    border: 1px solid green;
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    position:relative;
+}
+
